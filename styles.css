@@ -1,0 +1,39 @@
+body {
+	background-image: url('background.png'); /* Замените 'background.jpg' на имя вашего файла с картинкой */
+    background-size: cover;
+}
+
+.container {
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center; /* Центрирование текста */
+    font-family: Verdana, Geneva, sans-serif;
+    color: white; /* Цвет текста белый для читаемости на фоне картинки */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	font-size: 35px;
+	margin-bottom: 160px;
+}
+
+p {
+	font-size: 24px;
+	margin-bottom: 120px;
+}
+
+.contacts {
+    font-size: 30px;
+	margin-top: 24px;
+}
+
+a {
+	color: white; /* Цвет ссылки для видимости */
+	
+}
+
+a:hover {
+	text-decoration: underline;
+}
